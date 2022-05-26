@@ -8,6 +8,6 @@ cricketer_name = input("Enter Cricket Name: ")
 cricketer_details=df.loc[df['Name'] == cricketer_name ]
 
 if not cricketer_details.empty:
-    print(cricketer_details)
+    print(cricketer_detail)
 else:
     print("Details not found. Please try another name.")
